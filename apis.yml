@@ -1,7 +1,27 @@
 aid: oceans
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oceans.png
 name: Oceans
-description: Oceans is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Oceans Healthcare is a behavioral health system operating a network of
+  psychiatric hospitals and outpatient programs across the southern United
+  States. Founded in 2010 and backed by General Catalyst, the company delivers
+  inpatient and outpatient mental health treatment for adolescents, adults,
+  older adults, and veterans and first responders, spanning acute inpatient
+  psychiatry, partial hospitalization, intensive outpatient, and virtual
+  telehealth care. Oceans Healthcare is a care-delivery operator focused on
+  safety, stability, and lasting healing; it does not publish a public developer
+  API, developer portal, or OpenAPI definition at this time.
 url: https://raw.githubusercontent.com/api-evangelist/oceans/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Behavioral Health
+- Mental Health
+- Psychiatric Hospitals
+- Outpatient
+- Telehealth
+- Veterans Care
 apis: []
+common:
+- type: DomainSecurity
+  url: security/oceans-domain-security.yml
+- type: Website
+  url: https://oceanshealthcare.com/
+- type: About
+  url: https://oceanshealthcare.com/about-us/
+- type: Blog
+  url: https://oceanshealthcare.com/newsroom/
+- type: PrivacyPolicy
+  url: https://oceanshealthcare.com/privacy-policy-2/
+- type: TermsOfService
+  url: https://oceanshealthcare.com/terms-of-use/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
